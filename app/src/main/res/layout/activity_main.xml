@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="166dp">
+
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="20dp"
+            android:background="#3F51B5"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Hello Toast"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/toastButton"
+            android:layout_width="388dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="20dp"
+            android:background="#3F51B5"
+            android:padding="10dp"
+            android:text="TOAST"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/counterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="406dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#3F51B5"
+            android:textSize="160sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/countButton"
+            android:layout_width="388dp"
+            android:layout_height="73dp"
+            android:background="#3F51B5"
+            android:padding="10dp"
+            android:text="COUNT"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
